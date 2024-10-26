@@ -6,13 +6,14 @@
 > - **Project:** Gotik  
 > - **Date:** 2024-10-24  
 > - **Status:** Draft  
-> - **Version:** 1.1  
+> - **Version:** 1.2  
 > - **Version History:**
 >
 >   | Phiên bản | Ngày       | Người tạo        | Nội dung cập nhật              |
 >   |-----------|------------|------------------|---------------------------------|
 >   | 1.0       | 2024-10-24 | Nguyễn Bảo Khôi  | Bản nháp ban đầu                |
 >   | 1.1       | 2024-10-26 | Nguyễn Bảo Khôi  | Cập nhật tổng quan và bổ sung hướng dẫn chi tiết |
+>   | 1.2       | 2024-10-26 | Nguyễn Bảo Khôi  | Bổ sung hướng dẫn cụ thể cho từng công cụ |
 >
 
 ---
@@ -29,14 +30,15 @@ Google Workspace cung cấp giải pháp quản lý email, tài liệu, và lị
    - Xác minh quyền sở hữu tên miền và hoàn thành cấu hình cho việc gửi và nhận email.
 
 2. **Cấu hình email cho nhóm dự án:**
-   - Tạo tài khoản email cho 6 thành viên nhóm với tên miền công ty `@gotik.vn`.
+   - Tạo tài khoản email cho 8 thành viên nhóm với tên miền công ty `@gotik.vn`.
    - Cấu hình chữ ký email công ty, lọc thư rác, và kích hoạt xác thực hai yếu tố (2FA) cho mỗi tài khoản.
    - **Hướng dẫn bảo mật:** Định kỳ kiểm tra bảo mật và thực hiện kiểm tra lại xác thực hai yếu tố (2FA) để đảm bảo tính an toàn.
 
 3. **Thiết lập Google Drive:**
    - Tạo và cấu trúc Google Drive dùng chung cho nhóm với các thư mục như **Dự án**, **Tài liệu kỹ thuật**, **Tài liệu hướng dẫn**, **Cuộc họp**.
+     > Thùy cung cấp thêm chi tiết về cấu trúc thư mục và quản lý tài liệu non-tech trên Google Drive.
    - **Chính sách phân quyền:** Phân quyền truy cập dựa theo vai trò và trách nhiệm của từng thành viên, đảm bảo tính bảo mật cho tài liệu quan trọng.
-
+     > Thùy cung cấp hướng dẫn cụ thể về cách phân quyền truy cập và quản lý tài liệu trên Google Drive.
 4. **Cấu hình Google Calendar:**
    - Tạo lịch nhóm để quản lý cuộc họp và sự kiện quan trọng.
    - **Chia sẻ quyền chỉnh sửa:** Quyền chỉnh sửa và xem lịch sẽ được phân bổ dựa trên vai trò của từng thành viên.
@@ -94,7 +96,7 @@ Jira hỗ trợ quản lý nhiệm vụ, theo dõi tiến độ và quy trình l
    - **Liên kết nhiệm vụ:** Đảm bảo các pull request và thay đổi mã nguồn đều được liên kết với nhiệm vụ trên Jira.
 
 5. **Phân quyền:**
-   - Phân quyền cho các thành viên nhóm theo vai trò (Project Manager, Developer, QA) và kiểm tra định kỳ để đảm bảo phân quyền chính xác.
+   - Phân quyền cho các thành viên nhóm theo vai trò (Project Manager, Developer, ~~QA~~) và kiểm tra định kỳ để đảm bảo phân quyền chính xác.
 
 ---
 
@@ -132,7 +134,7 @@ Slack cung cấp nền tảng giao tiếp trực tuyến, hỗ trợ nhóm trao 
    - Mời các thành viên vào workspace, sử dụng email có tên miền `@gotik.vn`.
 
 2. **Tạo và quản lý các kênh giao tiếp:**
-   - Tạo các kênh như `#general`, `#dev`, `#qa`, `#management` cho các cuộc trao đổi theo nhóm và nhiệm vụ.
+   - Tạo các kênh như `#general`, `#dev`, ~~`#qa`~~, `#management` cho các cuộc trao đổi theo nhóm và nhiệm vụ.
    - **Hướng dẫn giao tiếp:** Khuyến khích sử dụng thread cho các chủ đề thảo luận riêng trong từng kênh để giảm thiểu nhiễu thông tin.
 
 3. **Tích hợp Slack với các công cụ khác:**
